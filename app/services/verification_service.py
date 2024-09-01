@@ -4,8 +4,8 @@ from PIL import Image as PILImage
 from fastai.vision.all import *
 
 # Load the trained model and embeddings
-learn = load_learner(r'C:\Users\KABIR YADAV\Desktop\flask_employee_verification\face_recognition_model.pkl')
-with open(r'C:\Users\KABIR YADAV\Desktop\flask_employee_verification\embeddings.pkl', 'rb') as f:
+learn = load_learner(r'models\face_recognition_model.pkl')
+with open(r'models\embeddings.pkl', 'rb') as f:
     embeddings_db = pickle.load(f)
 
 def get_embedding(img_path):
