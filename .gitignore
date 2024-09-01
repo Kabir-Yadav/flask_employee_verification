@@ -29,9 +29,6 @@ Thumbs.db
 # IDE specific files
 .vscode/
 
-# Project specific files
-embeddings.pkl
-face_recognition_model.pkl
 
 # Pycache folders
 app/__pycache__/
