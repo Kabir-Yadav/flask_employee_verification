@@ -1,0 +1,49 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+vfd/
+
+# Flask instance folder
+instance/
+
+# Database files
+*.db
+*.sqlite3
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.vscode/
+
+# Project specific files
+embeddings.pkl
+face_recognition_model.pkl
+
+# Pycache folders
+app/__pycache__/
+app/services/__pycache__/
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+
+# Keep these files tracked (remove the comment if you want to ignore them)
+# README.md
+# requirements.txt
+# run.py
